@@ -20,6 +20,7 @@ test the car:
     script:
         - test -f build/car.txt
         - cd build
+        - cat car.txt
         - grep "chassis" car.txt
         - grep "engine" car.txt
         - grep "wheels" car.txt
